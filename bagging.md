@@ -66,6 +66,7 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
   - Confirm that the json file is within the package with the dataset(s)
 
 ## Creating the Bag
+*Please note: If the bag you've downloaded is very large (10+ GB), you should flag this as needing an alternative bagging procedure and tell your DataRescue guide.*
   - Open Data Conservancy Package (DCP) tool
   - Make sure ``"DCS Business Profile"`` is selected in the upper right part of the screen
   - Fill out Required Fields
