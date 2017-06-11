@@ -107,7 +107,9 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
     - If it does not validate, please notify a DataRescue guide or report it in the DataRescue Slack channel.
 
 - If the bag validates before S3 upload and after S3 download, type the following in the ``Notes From Bagging`` field:
+
 ``Bagged with Data Conservancy Packaging Tool (v.1.0.5); validated before S3 upload and after S3 download.``
+
 - Check the Bag checkbox (on the right-hand side) to mark that step as completed.
 - Click `Save`.
 - Click `Check in URL`, to release it and allow someone else to work on the next step.
