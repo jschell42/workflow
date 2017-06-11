@@ -66,7 +66,7 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
   - Confirm that the json file is within the package with the dataset(s)
 
 ## Creating the Bag
-*Please note: If the bag you've downloaded is very large (10+ GB), you should flag this as needing an alternative bagging procedure and tell your DataRescue guide.*
+*_Please note: If the bag you've downloaded is very large (10+ GB), you should flag this as needing an alternative bagging procedure and tell your DataRescue guide._*
   - Open Data Conservancy Package (DCP) tool
   - Make sure ``"DCS Business Profile"`` is selected in the upper right part of the screen
   - Fill out Required Fields
@@ -106,7 +106,8 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
     ``bagit.py --validate [path to finished bag]``
     - If it does not validate, please notify a DataRescue guide or report it in the DataRescue Slack channel.
 
-- In the Archivers app, make sure to fill out as much information as possible to document your work.
+- If the bag validates before S3 upload and after S3 download, type the following in the ``Notes From Bagging`` field:
+Bagged with Data Conservancy Packaging Tool (v.1.0.5); validated before S3 upload and after S3 download.
 - Check the Bag checkbox (on the right-hand side) to mark that step as completed.
 - Click `Save`.
 - Click `Check in URL`, to release it and allow someone else to work on the next step.
