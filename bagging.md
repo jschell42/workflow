@@ -65,7 +65,7 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
   - If you make any changes, make sure to save this as a .json file.
   - Confirm that the json file is within the package with the dataset(s)
 
-##Creating the Bag
+## Creating the Bag
   - Open Data Conservancy Package (DCP) tool
   - Make sure ``"DCS Business Profile"`` is selected in the upper right part of the screen
   - Fill out Required Fields
@@ -93,7 +93,7 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
   - If it comes back as "valid" you can proceed to the next step of uploading the bag.
     - If it does not validate, please go back over your process above. If you are confident you followed all the steps and it still does not validate, please notify a DataRescue guide or report it in the DataRescue Slack channel.
 
-##Uploading the Finished Bag
+## Uploading the Finished Bag
 - Upload the zipped bag using the application http://drp-upload-bagger.herokuapp.com/
   - Make sure to select the name of your event in the dropdown (or "remote" if you are working remotely)
   - Note that files beyond 5 Gigs cannot be uploaded through this method
